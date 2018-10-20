@@ -14,6 +14,25 @@ ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < 
 ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
 Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
 Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
+CreateIngredients	db/migrate/20181020122352_create_ingredients.rb	/^class CreateIngredients < ActiveRecord::Migration[5.2]$/;"	c
+CreateRecipes	db/migrate/20181020123601_create_recipes.rb	/^class CreateRecipes < ActiveRecord::Migration[5.2]$/;"	c
 Hazirsef	config/application.rb	/^module Hazirsef$/;"	m
+Ingredient	app/models/ingredient.rb	/^class Ingredient < ApplicationRecord$/;"	c
+Recipe	app/models/recipe.rb	/^class Recipe < ApplicationRecord$/;"	c
+RecipesController	app/controllers/recipes_controller.rb	/^class RecipesController < ApplicationController$/;"	c
+RecipesHelper	app/helpers/recipes_helper.rb	/^module RecipesHelper$/;"	m
+RecipesIngredients	db/migrate/20181020123733_recipes_ingredients.rb	/^class RecipesIngredients < ActiveRecord::Migration[5.2]$/;"	c
+change	db/migrate/20181020122352_create_ingredients.rb	/^  def change$/;"	f	class:CreateIngredients
+change	db/migrate/20181020123601_create_recipes.rb	/^  def change$/;"	f	class:CreateRecipes
+change	db/migrate/20181020123733_recipes_ingredients.rb	/^  def change$/;"	f	class:RecipesIngredients
+create	app/controllers/recipes_controller.rb	/^  def create$/;"	f	class:RecipesController
+destroy	app/controllers/recipes_controller.rb	/^  def destroy$/;"	f	class:RecipesController
+edit	app/controllers/recipes_controller.rb	/^  def edit$/;"	f	class:RecipesController
+index	app/controllers/recipes_controller.rb	/^  def index$/;"	f	class:RecipesController
+new	app/controllers/recipes_controller.rb	/^  def new$/;"	f	class:RecipesController
+recipe_params	app/controllers/recipes_controller.rb	/^    def recipe_params$/;"	f	class:RecipesController
+set_recipe	app/controllers/recipes_controller.rb	/^    def set_recipe$/;"	f	class:RecipesController
+show	app/controllers/recipes_controller.rb	/^  def show$/;"	f	class:RecipesController
 system!	bin/setup	/^def system!(*args)$/;"	f
 system!	bin/update	/^def system!(*args)$/;"	f
+update	app/controllers/recipes_controller.rb	/^  def update$/;"	f	class:RecipesController
