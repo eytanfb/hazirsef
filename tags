@@ -4,6 +4,7 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+AddAmountToIngredientsRecipes	db/migrate/20181031064541_add_amount_to_ingredients_recipes.rb	/^class AddAmountToIngredientsRecipes < ActiveRecord::Migration[5.2]$/;"	c
 Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Hazirsef
 ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
 ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
@@ -14,6 +15,51 @@ ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < 
 ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
 Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
 Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
+CreateIngredients	db/migrate/20181020122352_create_ingredients.rb	/^class CreateIngredients < ActiveRecord::Migration[5.2]$/;"	c
+CreateRecipes	db/migrate/20181020123601_create_recipes.rb	/^class CreateRecipes < ActiveRecord::Migration[5.2]$/;"	c
+CreateUnits	db/migrate/20181104002056_create_units.rb	/^class CreateUnits < ActiveRecord::Migration[5.2]$/;"	c
 Hazirsef	config/application.rb	/^module Hazirsef$/;"	m
+Ingredient	app/models/ingredient.rb	/^class Ingredient < ApplicationRecord$/;"	c
+IngredientsController	app/controllers/ingredients_controller.rb	/^class IngredientsController < ApplicationController$/;"	c
+IngredientsHelper	app/helpers/ingredients_helper.rb	/^module IngredientsHelper$/;"	m
+Recipe	app/models/recipe.rb	/^class Recipe < ApplicationRecord$/;"	c
+RecipesController	app/controllers/recipes_controller.rb	/^class RecipesController < ApplicationController$/;"	c
+RecipesHelper	app/helpers/recipes_helper.rb	/^module RecipesHelper$/;"	m
+RecipesIngredients	db/migrate/20181020123733_recipes_ingredients.rb	/^class RecipesIngredients < ActiveRecord::Migration[5.2]$/;"	c
+Unit	app/models/unit.rb	/^class Unit < ApplicationRecord$/;"	c
+UnitsController	app/controllers/units_controller.rb	/^class UnitsController < ApplicationController$/;"	c
+UnitsHelper	app/helpers/units_helper.rb	/^module UnitsHelper$/;"	m
+change	db/migrate/20181020122352_create_ingredients.rb	/^  def change$/;"	f	class:CreateIngredients
+change	db/migrate/20181020123601_create_recipes.rb	/^  def change$/;"	f	class:CreateRecipes
+change	db/migrate/20181020123733_recipes_ingredients.rb	/^  def change$/;"	f	class:RecipesIngredients
+change	db/migrate/20181031064541_add_amount_to_ingredients_recipes.rb	/^  def change$/;"	f	class:AddAmountToIngredientsRecipes
+change	db/migrate/20181104002056_create_units.rb	/^  def change$/;"	f	class:CreateUnits
+create	app/controllers/ingredients_controller.rb	/^  def create$/;"	f	class:IngredientsController
+create	app/controllers/recipes_controller.rb	/^  def create$/;"	f	class:RecipesController
+create	app/controllers/units_controller.rb	/^  def create$/;"	f	class:UnitsController
+destroy	app/controllers/ingredients_controller.rb	/^  def destroy$/;"	f	class:IngredientsController
+destroy	app/controllers/recipes_controller.rb	/^  def destroy$/;"	f	class:RecipesController
+destroy	app/controllers/units_controller.rb	/^  def destroy$/;"	f	class:UnitsController
+edit	app/controllers/ingredients_controller.rb	/^  def edit; end$/;"	f	class:IngredientsController
+edit	app/controllers/recipes_controller.rb	/^  def edit; end$/;"	f	class:RecipesController
+edit	app/controllers/units_controller.rb	/^  def edit$/;"	f	class:UnitsController
+index	app/controllers/ingredients_controller.rb	/^  def index$/;"	f	class:IngredientsController
+index	app/controllers/recipes_controller.rb	/^  def index$/;"	f	class:RecipesController
+index	app/controllers/units_controller.rb	/^  def index$/;"	f	class:UnitsController
+ingredient_params	app/controllers/ingredients_controller.rb	/^  def ingredient_params$/;"	f	class:IngredientsController
+new	app/controllers/ingredients_controller.rb	/^  def new$/;"	f	class:IngredientsController
+new	app/controllers/recipes_controller.rb	/^  def new$/;"	f	class:RecipesController
+new	app/controllers/units_controller.rb	/^  def new$/;"	f	class:UnitsController
+recipe_params	app/controllers/recipes_controller.rb	/^  def recipe_params$/;"	f	class:RecipesController
+set_ingredient	app/controllers/ingredients_controller.rb	/^  def set_ingredient$/;"	f	class:IngredientsController
+set_recipe	app/controllers/recipes_controller.rb	/^  def set_recipe$/;"	f	class:RecipesController
+set_unit	app/controllers/units_controller.rb	/^    def set_unit$/;"	f	class:UnitsController
+show	app/controllers/ingredients_controller.rb	/^  def show; end$/;"	f	class:IngredientsController
+show	app/controllers/recipes_controller.rb	/^  def show; end$/;"	f	class:RecipesController
+show	app/controllers/units_controller.rb	/^  def show$/;"	f	class:UnitsController
 system!	bin/setup	/^def system!(*args)$/;"	f
 system!	bin/update	/^def system!(*args)$/;"	f
+unit_params	app/controllers/units_controller.rb	/^    def unit_params$/;"	f	class:UnitsController
+update	app/controllers/ingredients_controller.rb	/^  def update$/;"	f	class:IngredientsController
+update	app/controllers/recipes_controller.rb	/^  def update$/;"	f	class:RecipesController
+update	app/controllers/units_controller.rb	/^  def update$/;"	f	class:UnitsController
